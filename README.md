@@ -1,10 +1,10 @@
 # Standardised Minimum 3D Distance (SM3DD)
 
-Source code and binary executable for "SM3DD with Segmented PCA:A Comprehensive Method for Interpreting 3D Spatial Transcriptomics". See the preprint at: https://www.biorxiv.org/content/10.1101/2025.04.17.649456v1
+Source code and binary executable for "SM3DD with Segmented PCA:A Comprehensive Method for Interpreting 3D Spatial Transcriptomics".
 
 ## Installation and Compilation Instructions
 
-Running the standalone binary executable requires MATLAB Runtime to be installed (https://au.mathworks.com/help/compiler/install-the-matlab-runtime.html). Currently the source code/binary executable is only the Windows version, the Linux versions will be added shortly.
+Running the standalone binary executable requires MATLAB Runtime to be installed (https://au.mathworks.com/help/compiler/install-the-matlab-runtime.html). Currently the source code/binary executable is only the Windows version. Check the lab's GitHub for addtions or revisions (https://github.com/clinicalomx/Standardised-Minimum-3D-Distance-SM3DD).
 
 File structure requires a folder named "SM3DD" to be in the same folder as the script/binary executable. The 4 CSV files need to be in the "SM3DD" folder, along with another folder named "Data". The probe coordinate files (..._tx_file(s) for NanoString assays) and at least one probe count matrix file (..._exprMat_file(s) for NanoString assays) should be put the "Data" folder (any folder structure within the "Data" folder is permissible).
 
@@ -35,7 +35,11 @@ The M3DD calculations are parallelised and the PCA function is internally parall
 
 ## Citation
 
-bioarxiv: https://www.biorxiv.org/content/10.1101/2025.04.17.649456v1
+SM3DD with Segmented PCA: A Comprehensive Method for Interpreting 3D Spatial Transcriptomics, _NAR Genomics and Bioinformatics_ (2026), _in press_.
 
 Installation includes fdr_bky.m
 David Groppe (2025). Two-stage Benjamini, Krieger, & Yekutieli FDR procedure (https://www.mathworks.com/matlabcentral/fileexchange/27423-two-stage-benjamini-krieger-yekutieli-fdr-procedure), MATLAB Central File Exchange. Retrieved June 20, 2025.
+
+## Licensing
+
+Licensed under the Academic Free License version 3.0
