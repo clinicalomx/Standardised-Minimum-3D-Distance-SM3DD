@@ -16,7 +16,7 @@ Use Platform.csv to assign which assay the data comes from and define the data s
  
 Use PCA options.csv to indicate whether you want FOVs with missing data to be included in the segmented PCA assays. TO-probes are excluded if there is any missing data, so datasets with one or more sparse FOVs may suffer from their inclusion.
  
-SM3DD will terminate with and generate an error message to the same folder as the script if the files are not as expected, or if Sample Groups.csv includes any samples that are not listed in Samples to FOVs.csv SM3DD will generate an error message without terminating if FOVs include no count data.
+SM3DD will terminate with and generate an error message to the same folder as the script if the files are not as expected, or if Sample Groups.csv includes any samples that are not listed in Samples to FOVs.csv. SM3DD will generate an error message without terminating if FOVs include no count data.
  
 The script checks for what SM3DDs have already been calculated etc, so if additional comparisons are run that include FOVs for which the SM3DDs have already been calculated, then it doesn't recalculate them. Similarly, if the script is interrupted for any reason, then it will, when restarted, continue on from where it left off.
  
