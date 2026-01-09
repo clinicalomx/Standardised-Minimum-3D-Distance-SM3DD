@@ -6,7 +6,7 @@ Source code and binary executable for "SM3DD with Segmented PCA: A Comprehensive
 # Installation and Compilation Instructions
 Running the standalone binary executable requires MATLAB Runtime to be installed (https://au.mathworks.com/help/compiler/install-the-matlab-runtime.html). Currently the source code/binary executable is only the Windows version. Check the lab's GitHub for updates and additions (https://github.com/clinicalomx/Standardised-Minimum-3D-Distance-SM3DD).
  
-File structure requires a folder named "SM3DD" to be in the same folder as the script/binary executable. The 4 CSV files need to be in the "SM3DD" folder, along with another folder named "Data". The probe coordinate files (..._tx_file(s) for NanoString assays) and at least one probe count matrix file (..._exprMat_file(s) for NanoString assays) should be put the "Data" folder (any folder structure within the "Data" folder is permissible).
+File structure requires a folder named "SM3DD" to be in the same folder as the script/binary executable. The 4 CSV files need to be in the "SM3DD" folder, along with another folder named "Data". The probe coordinate files (..._tx_file(s) for NanoString assays) and at least one probe count matrix file (..._exprMat_file(s) for NanoString assays) should be put in the "Data" folder (any folder structure within the "Data" folder is permissible).
  
 Use Sample Groups.csv to: (i) list the samples in each group to be compared. (ii) name the sample groups (iii) set the paired test binary value (1 if paired test)
  
